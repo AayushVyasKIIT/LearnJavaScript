@@ -1,0 +1,21 @@
+Programmatic Calculator
+
+-1. Assign value to each button and it will be read in backend
+-2. now based on the button pressed append and make the output string
+-3. make a clear button to flush/clear the input string of numbers
+-4. make functions for calculations:
+	a. fibonacci
+	b. gcd
+	c. isPrime or not
+	d. isEven or isOdd
+	e. isPalindrome
+	f. sort the number
+[IMP] : shift the layout to flexbox first
+-5. add functionalities for basic math operations:
+	a. add sub mul divide modulo 
+	b. percentage , square root, log, x^y
+
+-6. make UI for (4)
+-7. make UI for (5)
+	
+	
