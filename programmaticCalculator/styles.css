@@ -1,13 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .MainFrame{
     background-color: rgb(179, 175, 175);
     padding: 10px;
+    
 }
 .InnerFrame{
+    flex : 1 0 auto;
     padding : 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    justify-content: center;
+    gap: 5px;
 }
-.numpadContainmer{
+.numpad{
+    flex: 1 0 auto;
+    padding : 5px;
+    
+}
+.numpadContainer{
     background-color: rgba(110, 110, 110, 0.418);
-    padding: 10px;
+    padding: 5px;
+    
+}
+.MathFunctionsContainer{
+    flex: 1 0 auto;
+    padding : 5px;
+    
+}
+.OperationsContainer{
+    flex : 1 0 auto;
+    padding : 5px;
 }
 
 button{
@@ -37,4 +65,23 @@ button{
     text-align: center;
     
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button:hover{
+    opacity: 1;
+    background-color: grey;
 }

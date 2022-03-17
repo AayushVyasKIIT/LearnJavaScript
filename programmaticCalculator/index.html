@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,68 +8,134 @@
     <title>Programmatic Calculator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-    <div class = "MainFrame">
-        <div class = "OuterFrame">
-            
-        <div class = "displayOuter"> 
-            
-            <div class = "displayInner">
-                <p class="displayResult"> 
-                    output
-                </p>
-                <p class="displayInput"> 
-                    output
-                </p>
-                
+    <div class="MainFrame">
+        <div class="OuterFrame">
+
+            <div class="displayOuter">
+
+                <div class="displayInner">
+                    <p class="displayResult">
+                        output
+                    </p>
+                    <p class="displayInput">
+                        out
+                    </p>
+
+                </div>
+
             </div>
-
-        </div>
             <div class="InnerFrame">
-                <div class = "numpadContainer"> 
-                    <button value="1">
-                        1
-                    </button>
-                    <button value="2"> 
-                        2
-                    </button>
-                    <button value ="3">
-                        3
-                    </button>
-                </div>
-                <div class = "numpadContainer"> 
-                    <button value="4">
-                        4
-                    </button>
-                    <button value="5">
-                        5
-                    </button>
-                    <button value ="6">
-                        6
-                    </button>
-                </div>
-                <div class = "numpadContainer"> 
-                    <button value ="7">
-                        7
-                    </button>
-                    <button value ="8">
-                        8
-                    </button>
-                    <button value ="9">
-                        9
-                    </button>
-                </div>
-                <div class = "numpadContainer"> 
-                    <button id = "clearButton" value="clear">
-                        clear
-                    </button>
+                <div class="numpad">
+                    <div class="numpadContainer">
+                        <button id = "num" value="1">
+                            1
+                        </button>
+                        <button id = "num" value="2">
+                            2
+                        </button>
+                        <button id = "num" value="3">
+                            3
+                        </button>
+                    </div>
+                    <div class="numpadContainer">
+                        <button id = "num" value="4">
+                            4
+                        </button>
+                        <button id = "num" value="5">
+                            5
+                        </button>
+                        <button id = "num" value="6">
+                            6
+                        </button>
+                    </div>
+                    <div class="numpadContainer">
+                        <button id = "num" value="7">
+                            7
+                        </button>
+                        <button id = "num" value="8">
+                            8
+                        </button>
+                        <button id = "num" value="9">
+                            9
+                        </button>
+                    </div>
+                    <div class="numpadContainer">
+                        <button id="clearButton" value="clear">
+                            clear
+                        </button>
+                        <button id="equals" value="clear">
+                            =
+                        </button>
 
+                    </div>
+                </div>
+                    <div class = "MathFunctionsContainer">
+                        <div class="MathFunctionItems">
+                            <button value="Fibonacci">
+                                Fibonacci
+                            </button>
+                            <button value="GCD">
+                                GCD/HCF
+                            </button>
+                            <button value="isPrime">
+                                isPrime
+                            </button>
+                        </div>
+                        <div class="MathFunctionItems">
+                            <button value="isPalindrome">
+                                isPalindrome
+                            </button>
+                            <button value="isEven">
+                                isEven
+                            </button>
+                            <button value="sort">
+                                sort
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "OperationsContainer">
+                        <div class="OperationsItems">
+                            <button value="+">
+                                +
+                            </button>
+                            <button value="-">
+                                -
+                            </button>
+                            <button value="*">
+                                *
+                            </button>
+                        </div>
+                        <div class="OperationsItems">
+                            <button value="/">
+                                /
+                            </button>
+                            <button value="%">
+                                %
+                            </button>
+                            <button value="sqrt">
+                                sqrt
+                            </button>
+                        </div>
+                        <div class="OperationsItems">
+                            <button value="log">
+                                log
+                            </button>
+                            <button value="x^y">
+                                x^y
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
 </body>
-<script src = "sandbox.js"></script>
+
+
+<script src="sandbox.js"></script>
+
 </html>
